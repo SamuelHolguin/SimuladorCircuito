@@ -13,9 +13,13 @@ public class Boton extends JButton implements ActionListener {
         configurarBotones(x, y, ancho, alto);
     }
     
+    private void prueba() {
+        System.out.println("está linea se agrego porque esta en verde");
+    }
+    
     @Override
     public void actionPerformed(ActionEvent e) {
-        setBackground(Color.yellow);
+        setBackground(Color.red);
     }
 
     private void configurarBotones(int x, int y, int ancho, int alto) {
